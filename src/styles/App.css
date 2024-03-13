@@ -1,1 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
+.top,
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.top {
+    padding: 20px;
+}
+
+input,
+button {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 5px;
+    margin-inline: 5px;
+}
+
+.weather {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.weather h1 {
+    font-size: 40px;
+}
